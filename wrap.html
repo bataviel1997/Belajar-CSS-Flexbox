@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Wrap</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+
+    <!-- PAGE NAVIGATION -->
+    <nav class="page_navigation">
+      <h1 class="brand">CSS Flex Box</h1>
+      <menu>
+        <a href="/">Flex Direction</a>
+        <a href="wrap.html">Flex wrap</a>
+        <a href="justify_content.html">Flex justify content</a>
+        <a href="align_items.html">Align item</a>
+      </menu>
+    </nav>
+    <!-- PAGE NAVIGATION END -->
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+      <a href="#wrap">Flex Wrap</a>
+      <a href="#no_wrap">Flex No Wrap</a>
+      <a href="#">Vaccant</a>
+      <a href="#">Vaccant</a>
+    </nav>
+    <!-- NAVIGATION END -->
+
+    <main>
+
+      <h1>Flex Wrap & No Wrap</h1>
+<!-- FLEX WRAP -->
+      <section id="wrap">
+          <h3>1.Flex Wrap</h3>
+          <div class="flex flex_wrap">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+        
+            
+          </div>
+
+          <pre>
+          .flex_wrap {
+            flex-wrap: wrap;
+          }
+          </pre>
+      </section>
+      <!-- FLEX WRAP END -->
+
+      <!-- FLEX NO WRAP -->
+      <section id="no_wrap">
+      <h3>2.Flex No Wrap</h3>
+      <div class="flex flex_nowrap">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+          
+        
+      </div>
+
+      <pre>
+      .flex_nowrap {
+        flex-wrap: nowrap;
+      }      
+      </pre>
+  </section>
+  <!-- FLEX NO WRAP END -->
+
+
+    </main>
+  </body>
+</html>

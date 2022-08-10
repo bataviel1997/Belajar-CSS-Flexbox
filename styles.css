@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto;
+  color: black;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+section { 
+  padding: 20px 0px;
+}
+
+
+.flex > div {
+  width: 50px;
+  height: 50px;
+  background-color: #555;
+  color: red;
+}
+
+.flex {
+  display: flex;
+  border: 1px solid grey;
+  gap: 8px;
+  padding: 8px;
+}
+/* row horizontal/colom vertical */
+
+.flex_row {
+  flex-direction: row;
+}
+
+.flex_column {
+  flex-direction: column;
+}
+
+.flex_row_reverse {
+  flex-direction: row-reverse;
+}
+
+.flex_column_reverse {
+  flex-direction: column-reverse;
+}
+/* justify conten centen. posisi conten di tengah */
+.navbar{
+  height: 40px;
+  background-color: orange;
+  color: antiquewhite;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar a {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 200;
+}
+/* justify-content: space-between posisi konten  mengisi ruang*/
+.page_navigation {
+  height: 60px;
+  background-color: black;
+  color: aliceblue;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.brand {
+  font-weight: lighter;
+  user-select: none;
+}
+
+.page_navigation > menu > a {
+  color: azure;
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.flex_wrap {
+  flex-wrap: wrap;
+}
+
+.flex_wrap > div {
+  width: 100px;
+  height: 100px;
+}
+
+.flex_nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex_nowrap > div {
+  width: 100px;
+  height: 100px;
+}
