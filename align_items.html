@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Align Items</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <!-- PAGE NAVIGATION -->
+   <nav class="page_navigation">
+   <h1 class="brand">Kamus CSS Flex Box</h1>
+   <menu>
+     <a href="/">Flex Direction</a>
+     <a href="wrap.html">Flex wrap</a>
+     <a href="justify_content.html">Flex Justify Content</a>
+     <a href="align_items.html">Align Items</a>
+   </menu>
+ </nav>
+ <!-- PAGE NAVIGATION END -->
+
+ <!-- NAVIGATION -->
+ <nav class="navbar">
+   <a href="#align_itemsCenter">Center</a>
+   <a href="#align_itemsStart">Start</a>
+   <a href="#align_itemsEnd">End</a>
+   <a href="#align_itemsStrech">Strech</a>
+   <a href="#align_itemsBaseline">Baseline</a>
+    
+ </nav>
+ <!-- NAVIGATION END -->
+  <main>
+<!-- ALIGN ITEMS CENTER -->
+    <section id="align_itemsCenter">
+      <h3>1. Align Items Center</h3>
+      <div class="flex align_itemsCenter initial_height">
+      <div>dawlkfehehehtrthhslekfj</div>
+      <div>2qdfwefaefsefsefeffwef</div>
+      <div>3wfqefsefsdfsdfsefsefwef</div>
+      <div>4wfwefsefsdfsdfghrethwef</div>
+      <div>5wfwrthrthgfhfgefwefr</div>
+      <div>6fwefqrthrthefqf</div>
+      <div>7wefwfhfghrthefwefwf</div>
+      </div>
+
+      <pre>
+      .align_itemsCenter{
+        height: 300px;
+        align-items: center;
+      }
+      </pre>
+    </section>
+<!-- ALIGN ITEMS CENTER END -->
+
+<!-- ALIGN ITEMS START -->
+<section id="align_itemsStart">
+<h3>2. Align Items Start Default</h3>
+<div class="flex align_itemsStart initial_height">
+<div>dawlkfehehehtrthhslekfj</div>
+<div>2qdfwefaefsefsefeffwef</div>
+<div>3wfqefsefsdfsdfsefsefwef</div>
+<div>4wfwefsefsdfsdfghrethwef</div>
+<div>5wfwrthrthgfhfgefwefr</div>
+<div>6fwefqrthrthefqf</div>
+<div>7wefwfhfghrthefwefwf</div>
+</div>
+
+<pre>
+.align_itemsStart{
+  align-items: flex-start;
+}
+</pre>
+</section>
+<!-- ALIGN ITEMS START END -->
+
+<!-- ALIGN ITEMS START -->
+<section id="align_itemsEnd">
+<h3>3. Align Items End</h3>
+<div class="flex align_itemsEnd initial_height">
+<div>dawlkfehehehtrthhslekfj</div>
+<div>2qdfwefaefsefsefeffwef</div>
+<div>3wfqefsefsdfsdfsefsefwef</div>
+<div>4wfwefsefsdfsdfghrethwef</div>
+<div>5wfwrthrthgfhfgefwefr</div>
+<div>6fwefqrthrthefqf</div>
+<div>7wefwfhfghrthefwefwf</div>
+</div>
+
+<pre>
+.align_itemsEnd{
+  height: 300px;
+  align-items: flex-end;
+}
+</pre>
+</section>
+<!-- ALIGN ITEMS START END -->
+
+<!-- ALIGN ITEMS STRETCH -->
+<section id="align_itemsStretch">
+<h3>4. Align Items Stretch</h3>
+<div class="initial_height flex align_itemsStretch">
+<div>dawlkfehehehtrthhslekfj</div>
+<div>2qdfwefaefsefsefeffwef</div>
+<div>3wfqefsefsdfsdfsefsefwef</div>
+<div>4wfwefsefsdfsdfghrethwef</div>
+<div>5wfwrthrthgfhfgefwefr</div>
+<div>6fwefqrthrthefqf</div>
+<div>7wefwfhfghrthefwefwf</div>
+</div>
+
+<pre>
+.align_itemsStretch{
+  height: 300px;
+  align-items: stretch;
+}
+</pre>
+</section>
+<!-- ALIGN ITEMS STRETCH END -->
+
+<!-- ALIGN ITEMS BASELINE -->
+<section id="align_itemsBaseline">
+<h3>4. Align Items Baseline</h3>
+<div class="flex align_itemsBaseline initial_height">
+  <div>dawlkfehehehtrthhslekfj</div>
+  <div>2qdfwefaefsefsefeffwef</div>
+  <div>3wfqefsefsdfsdfsefsefwef</div>
+  <div>4wfwefsefsdfsdfghrethwef</div>
+  <div>5wfwrthrthgfhfgefwefr</div>
+  <div>6fwefqrthrthefqf</div>
+  <div>7wefwfhfghrthefwefwf</div>
+</div>
+</div>
+
+<pre>
+.align_itemsBaseline{
+  height: 300px;
+  align-items: baseline;
+}
+</pre>
+</section>
+<!-- ALIGN ITEMS BASELINE END -->
+
+  </main>
+  
+</body>
+</html>
